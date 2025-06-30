@@ -90,5 +90,5 @@ Cada tarjeta muestra la información del evento: nombre, hora y descripción del
 <img src="https://github.com/user-attachments/assets/d3b8f7eb-07d8-4b46-bfb5-5e95af84a716" width="400"/>
 
 ## Autor
-Manuel José Liébana Vilches
+Manuel José Liébana Vilches <br>
 [LinkedIn](https://www.linkedin.com/in/manueljoseliebana/)
