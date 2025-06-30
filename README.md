@@ -34,19 +34,55 @@ Selección de hijo: permite filtrar los eventos según el hijo elegido, o ver to
 Menú horizontal: para cambiar entre las diferentes secciones de la agenda.
 
 ### Testing
-Se incluyó un test automático (test/splash_screen_test.dart) para verificar que la pantalla de inicio (SplashScreen) muestra correctamente el texto “Kids & Clouds” y realiza la navegación después de unos segundos.
+Se ha implementado un **test de widget** básico para comprobar que la pantalla de carga (`SplashScreen`) muestra correctamente el texto **"Kids & Clouds"** y realiza la navegación a la pantalla principal (`HomeScreen`) tras unos segundos.
+
+Esta prueba sirve para:
+- Verificar que el texto se renderiza correctamente.
+- Confirmar que la animación y la lógica de redirección funcionan como se espera.
+- Asegurar que el flujo de arranque de la app es estable ante futuros cambios.
+
+El test está ubicado en **test/splash_screen_test.dart**
 
 ## Configuración e instalación del Proyecto
 
-1. Clonar el repositorio
-  git clone [https://github.com/tu-usuario/nombre-del-repo.git](https://github.com/ManuelJose05/Agenda-Escolar.git)
-  cd Agenda-Escolar
-
-2. Instalar dependencias
+1. **Clonar el repositorio**
+   ```bash
+   git clone https://github.com/ManuelJose05/Agenda-Escolar.git
+   cd Agenda-Escolar
+   
+2. **Instalar dependencias**
+   ```bash
    flutter pub get
 
-3. Ejecutar la aplicación
+4. **Ejecutar la aplicación**
+   ```bash
    flutter run
 
-4. Ejecutar los test (opcional)
+5. **Ejecutar los test (opcional)**
+   ```bash
    flutter test
+
+## Vista Previa App
+
+### Pantalla de carga (SplashScreen)
+Animación inicial con el título "Kids & Clouds" y una animación Lottie personalizada.
+
+![Screenshot_1751272130](https://github.com/user-attachments/assets/4f8fdc4d-81ea-4f88-a9c7-4f796b2ca976)
+
+### Pantalla Principal
+Vista general de la agenda diaria con el menú superior de categorías y eventos mostrados en tarjetas.
+
+![Screenshot_1751272180](https://github.com/user-attachments/assets/0cd2339c-ea51-4099-bdf5-62be83d4d3ad)
+
+### Selección de hijo
+Desplegable para seleccionar un hijo/a y filtrar los eventos asociados.
+
+![Screenshot_1751272221](https://github.com/user-attachments/assets/494f8e7f-f11d-49cb-92b4-2f7f61b38598)
+
+### Tarjeta de evento
+Cada tarjeta muestra la información del evento: nombre, hora y descripción del niño.
+
+![Screenshot_1751272258](https://github.com/user-attachments/assets/d3b8f7eb-07d8-4b46-bfb5-5e95af84a716)
+
+
+
